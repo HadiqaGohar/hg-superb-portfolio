@@ -1,7 +1,8 @@
 'use client';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa'; // Import icons
+import { FaBars, FaTimes } from 'react-icons/fa'; 
+
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -28,37 +29,37 @@ function Navbar() {
                 <nav className='hidden lg:flex'>
                     <ul className='text-sm md:text-xl flex flex-row gap-6 animate-slide'>
                         <li>
-                            <Link href="/" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE] font-medium hover:underline  underline-offset-8'>
+                            <Link href="/" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline  underline-offset-8'>
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href="/about" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE] font-medium hover:underline underline-offset-8'>
+                            <Link href="/about" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE] hover:underline underline-offset-8'>
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link href="/education" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE] font-medium hover:underline underline-offset-8'>
+                            <Link href="/education" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
                                 Education
                             </Link>
                         </li>
                         <li>
-                            <Link href="/skills" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE] font-medium hover:underline underline-offset-8'>
+                            <Link href="/skills" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
                                 Skills
                             </Link>
                         </li>
                         <li>
-                            <Link href="/projects" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE] font-medium hover:underline underline-offset-8'>
+                            <Link href="/projects" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
                                 Projects
                             </Link>
                         </li>
                         <li>
-                            <Link href="/services" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE] font-medium hover:underline underline-offset-8'>
+                            <Link href="/services" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
                                 Services
                             </Link>
                         </li>
                         <li>
-                            <Link href="/contact" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE] font-medium hover:underline underline-offset-8'>
+                            <Link href="/contact" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
                                 Contact
                             </Link>
                         </li>

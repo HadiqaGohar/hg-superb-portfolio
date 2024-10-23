@@ -51,11 +51,12 @@ function Home() {
 
         {/* Icons */}
         <div className='flex flex-row gap-4 justify-center md:justify-start animate-slide animate-delay-1'>
-          <Link href="https://pk.linkedin.com/in/hadiqa-gohar-b64778300" target="_blank" rel="noopener noreferrer">
+          <Link href="https://pk.linkedin.com/in/hadiqa-gohar-b64778300" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
             <div className='fixed-glow rounded-full border-2 border- hover:bg-[#19A7CE] p-2 transition-all'>
               <FaLinkedinIn size={24} />
             </div>
           </Link>
+
 
           <Link href="https://m.facebook.com/profile.php/?id=61554985182774" target="_blank" rel="noopener noreferrer">
             <div className='fixed-glow rounded-full border-2 border-[#19A7CE] hover:bg-[#19A7CE] p-2 transition-all'>
@@ -103,26 +104,26 @@ function Home() {
       <div className='md:flex-1 flex justify-center items-center lg:mr-24'>
         <div className='md:flex-1 flex justify-center items-center relative'>
           {/* Liquid Shape */}
-         {/* Liquid Shape */}
-         <div className="liquid-shape md:mr-24 absolute bottom-0 left-0 w-[400px] h-[400px] mx-4 lg:w-[500px] lg:h-[500px] xl:w-[700px] xl:h-[700px] hidden lg:block">
-    <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-        <path fill="#12f7ff">
-            <animate
-                attributeName="d"
-                dur="6000ms"
-                repeatCount="indefinite"
-                values="
+          {/* Liquid Shape */}
+          <div className="liquid-shape md:mr-24 absolute bottom-0 left-0 w-[400px] h-[400px] mx-4 lg:w-[500px] lg:h-[500px] xl:w-[700px] xl:h-[700px] hidden lg:block">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+              <path fill="#12f7ff">
+                <animate
+                  attributeName="d"
+                  dur="6000ms"
+                  repeatCount="indefinite"
+                  values="
               M439,288Q381,326,375,391Q369,456,309.5,455.5Q250,455,191,455Q132,455,122.5,392Q113,329,60.5,289.5Q8,250,57.5,208.5Q107,167,140.5,142.5Q174,118,212,107.5Q250,97,309,71Q368,45,415,86.5Q462,128,479.5,189Q497,250,439,288Z;
               M457.5,306.5Q446,363,390,379.5Q334,396,292,446Q250,496,199.5,460.5Q149,425,115,386.5Q81,348,54.5,299Q28,250,41.5,194Q55,138,95,94.5Q135,51,192.5,32.5Q250,14,299.5,46.5Q349,79,406,103Q463,127,466,188.5Q469,250,457.5,306.5Z;
               M454,300.5Q425,351,383,379.5Q341,408,295.5,429.5Q250,451,195.5,445Q141,439,124.5,385.5Q108,332,91.5,291Q75,250,96.5,212Q118,174,134.5,126.5Q151,79,200.5,56Q250,33,301.5,52.5Q353,72,395.5,107Q438,142,460.5,196Q483,250,454,300.5Z;
               M465,305Q441,360,391.5,384.5Q342,409,296,438Q250,467,205,436.5Q160,406,137.5,367Q115,328,81,289Q47,250,60.5,199Q74,148,118.5,124Q163,100,206.5,85Q250,70,296.5,79.5Q343,89,399.5,110Q456,131,472.5,190.5Q489,250,465,305Z;
               M429,305Q441,360,392,385.5Q343,411,296.5,420Q250,429,191.5,440.5Q133,452,110.5,398Q88,344,58,297Q28,250,32.5,188.5Q37,127,97,108Q157,89,203.5,69Q250,49,297.5,67.5Q345,86,375.5,123Q406,160,411.5,205Q417,250,429,305Z;
               M442,309.5Q456,369,391.5,376Q327,383,288.5,397Q250,411,196,424Q142,437,130,381.5Q118,326,93,288Q68,250,70.5,199Q73,148,122.5,131.5Q172,115,211,92.5Q250,70,300.5,72.5Q351,75,385.5,113.5Q420,152,424,201Q428,250,442,309.5Z;"
-             
-             />
-        </path>
-    </svg>
-</div>
+
+                />
+              </path>
+            </svg>
+          </div>
 
 
           {/* Image */}

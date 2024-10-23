@@ -42,7 +42,7 @@ interface SkillBarProps {
 const SkillBar: React.FC<SkillBarProps> = ({ icon, label, progress }) => {
     return (
         <div
-            className="flex items-center justify-between border-2 border-fixed-glow border-cyan-400 p-2 rounded-md w-full md:w-[300px] lg:w-[400px] mx-auto"
+            className="flex items-center justify-between border-2 border-fixed-glow border-cyan-400 p-2 rounded-md w-full md:w-[300px] lg:w-[400px] mx-auto transition-transform duration-300 hover:scale-105" // Added hover scale effect
             aria-label={`${label} skill level is ${progress}`} 
         >
             <div className="flex items-center">
@@ -52,7 +52,7 @@ const SkillBar: React.FC<SkillBarProps> = ({ icon, label, progress }) => {
             <div className="relative w-full ml-4 animate-fade-in-bottom">
                 <div className="bg-gray-700 h-2 rounded-md border border-cyan-400">
                     <div
-                        className="animate-delay-3 bg-cyan-400 h-full rounded-md"
+                        className="bg-cyan-400 h-full rounded-md transition-all duration-500" // Added transition for smoother width change
                         style={{ width: progress }}
                     ></div>
                 </div>
