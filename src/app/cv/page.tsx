@@ -53,13 +53,8 @@ const Resume = () => {
                 <title>Resume</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             </Head>
-              {/* hr & 3 DOTS... */}
-        <div className="grid grid-flow-col gap-4 justify-end m-5">
-          <hr className="mt-4 border-2 lg:border-4 border-[#19A7CE] w-20 md:w-28" />
-          {Array(3).fill(
-            <div className="rounded-full bg-[#EBD3F8] h-[20px] w-[20px] lg:h-[30px] lg:w-[30px]"></div>
-          )}
-        </div>
+           
+        
 
             {/* Resume Content */}
             <div className='bg-[#1C315E]'>
