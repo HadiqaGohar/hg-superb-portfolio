@@ -99,7 +99,7 @@ const Projects = () => {
 
     return (
         <div className="flex flex-col h-[900px] items-center justify-center py-10 bg-[#1C315E] text-white">
-            <h1 className="animate-fade-in-top text-5xl mb-10 text-center font-bold my-10">
+            <h1 className="animate-fade-in-top text-5xl mb-10 text-center font-bold my-8">
                 Latest <span className="text-cyan-400">Projects</span>
             </h1>
             <Slider {...settings} className="w-full animate-fade-in-bottom max-w-6xl">
