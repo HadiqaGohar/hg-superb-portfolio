@@ -48,6 +48,7 @@ function Navbar() {
                                 Skills
                             </Link>
                         </li>
+                       {/* Project */}
                         {/* <li>
                             <Link href="/projects" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
                                 Projects
