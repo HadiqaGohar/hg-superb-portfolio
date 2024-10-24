@@ -9,7 +9,7 @@ import Image from 'next/image';
 function Home() {
   function handleType(): void {
     // Logic here if needed in the future
-}
+  }
 
   function handleDone(): void {
     // Handle completion of typing here
@@ -20,15 +20,15 @@ function Home() {
       {/* Text */}
       <div className='my-auto md:my-40 md:mx-24 lg:mx-32 text-center md:text-left md:flex-1'>
         <div className='mx-3 my-10'>
-        <h2 className='my-4 text-xl md:text-2xl font-bold animate-slide'>
-    Hello, It&#39;s Me
-</h2>
+          <h2 className='my-4 text-xl md:text-2xl font-bold animate-slide'>
+            Hello, It&apos;s Me
+          </h2>
           <h1 className='my-2 text-3xl md:text-5xl font-bold animate-slide'>
             Hadiqa Gohar
           </h1>
 
           <h1 className='text-2xl md:text-4xl font-bold animate-slide whitespace-nowrap' style={{ paddingTop: '0', margin: 'auto 0' }}>
-          I&#39;m a{' '}
+            I&apos;m a{' '}
             <span style={{ color: '#19A7CE', fontWeight: 'bold' }}>
               <Typewriter
                 words={['Frontend Developer!', 'UX/UI Designer!', 'Web Developer!', 'NextJS Developer!']}
@@ -45,8 +45,8 @@ function Home() {
           </h1>
 
           <p className='italic animate-slide mt-3 md:mr-28 lg:mr-40'>
-    I am a Medical Student, also I&#39;m a Student Leader at Governor Initiative For Cloud Applied Generative AI, Web 3.0 & Metaverse!
-</p>
+            I am a Medical Student, also I&apos;m a Student Leader at Governor Initiative For Cloud Applied Generative AI, Web 3.0 & Metaverse!
+          </p>
         </div>
 
         {/* Icons */}
@@ -93,7 +93,7 @@ function Home() {
           <div>
             <Link href="mailto:tasleemhadiqa76@gmail.com">
               <button className="text-[#19A7CE] italic font-bold bg-transparent border-[#19A7CE] border-2 px-4 py-2 rounded hover:bg-[#19A7CE] hover:text-black">
-                Let's Talk
+                Let&apos;s Talk
               </button>
             </Link>
           </div>
