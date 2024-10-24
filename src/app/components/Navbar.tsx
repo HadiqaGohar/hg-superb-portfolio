@@ -48,11 +48,11 @@ function Navbar() {
                                 Skills
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href="/projects" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
                                 Projects
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href="/services" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
                                 Services
@@ -107,11 +107,11 @@ function Navbar() {
                                 Skills
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href="/projects" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE] font-bold'>
                                 Projects
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href="/services" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE] font-bold'>
                                 Services
