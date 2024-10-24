@@ -16,7 +16,7 @@ function Home() {
   }
 
   return (
-    <div className='lg:h-[805px] max-h-screen flex flex-col md:flex-row text-white bg-[#0B2447] w-full'>
+    <div className=' h-[900px] flex flex-col md:flex-row text-white bg-[#0B2447] w-full'>
       {/* Text */}
       <div className='my-auto md:my-40 md:mx-24 lg:mx-32 text-center md:text-left md:flex-1'>
         <div className='mx-3 my-10'>
@@ -131,8 +131,8 @@ function Home() {
             src="https://image.cdn2.seaart.ai/2024-02-21/cnapr1de878c73fl2fig/623a0f7df5eba777b6db438a71567979c8f9a57f_high.webp"
             alt="Hadiqa Gohar"
             height={300}
-            width={400}
-            className="w-[300px] h-[400px] xl:w-[500px] xl:h-[600px] rounded-tr-3xl rounded-bl-3xl outline-double outline-8 outline-[#19A7CE] max-w-md opacity-0 transition-opacity duration-3000 animate-fade-in-delay relative z-10"
+            width={300}
+            className="w-[300px] h-[300px] xl:w-[500px] xl:h-[600px] rounded-tr-3xl rounded-bl-3xl outline-double outline-8 outline-[#19A7CE] mx-3 mb-12 max-w-md opacity-0 transition-opacity duration-3000 animate-fade-in-delay relative z-10"
           />
         </div>
       </div>

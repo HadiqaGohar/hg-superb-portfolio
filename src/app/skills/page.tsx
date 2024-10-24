@@ -4,8 +4,8 @@ import { SiTypescript, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
 const Skills = () => {
     return (
-        <div className="flex flex-col items-center justify-center h-[85vh] bg-[#0B2447] text-white">
-            <section className="max-w-4xl md:mx-auto p-4 mx-4">
+        <div className="flex flex-col items-center justify-center h-[900px] bg-[#0B2447] text-white">
+            <section className="max-w-4xl md:mx-auto p-4 mx-5 mb-10">
                 <h1 className="text-5xl mb-10 text-center font-bold">
                     Technical <span className="text-cyan-400">Skills</span>
                 </h1>

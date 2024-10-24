@@ -38,7 +38,7 @@ const services = [
 
 const Services = () => {
     return (
-        <div className="services-section bg-[#1C315E] h-[85vh] py-10">
+        <div className="services-section bg-[#1C315E] h-[1600px] md:h-[900px] py-10">
             <h1 className="animate-fade-in-top text-5xl text-white mt-10 mb-14 text-center font-bold">
                 My <span className="text-[#19A7CE]">Services</span>
             </h1>

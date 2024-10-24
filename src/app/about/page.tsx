@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 function About() {
     return (
-        <div className='bg-[#1C315E] w-full h-[85vh] flex flex-col items-center justify-center p-4'>
+        <div className='bg-[#1C315E] w-full h-[900px] flex flex-col items-center justify-center p-4'>
             {/* Image Section with Circular Loader */}
-            <div className='relative flex justify-center items-center mb-6'>
+            <div className='relative flex justify-center items-center mb-6 my-10 md:mt-0 '>
                 <div className='absolute w-[240px] h-[240px] xl:w-[340px] xl:h-[340px] border-4 border-t-[#19A7CE] border-b-transparent border-l-transparent border-r-transparent rounded-full animate-spin-slow'></div>
                 <div className='absolute w-[200px] h-[200px] xl:w-[300px] xl:h-[300px] border-4 border-t-[#19A7CE] border-b-transparent border-l-transparent border-r-transparent rounded-full animate-spin-slow'></div>
                 <Image
@@ -25,7 +25,7 @@ function About() {
                 <h2 className='md:text-3xl text-xl text-white font-bold animate-fade-in-top'>
                     Frontend Developer!
                 </h2>
-                <p className='italic md:text-xl text-4 text-white mx-4 md:mx-32 animate-fade-in-bottom delay-200'>
+                <p className='italic md:text-xl text-4 text-white mx-4 mb-4 md:mb-0 md:mx-32 animate-fade-in-bottom delay-200'>
     I am Hadiqa Gohar, a driven and curious senior student at the Governor Initiative, where I&apos;m immersed in the exciting world of Cloud Applied Generative AI, Web 3.0, and Metaverse. With a strong foundation in science and a passion for programming, I&apos;m constantly learning and exploring new possibilities in JavaScript, TypeScript, Python, HTML, CSS, Tailwind CSS, ReactJS, NextJS, and NodeJS. I&apos;m excited to share my journey and projects with you; visit my social media accounts.
 </p>
 
