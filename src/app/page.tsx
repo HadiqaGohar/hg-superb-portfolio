@@ -28,10 +28,10 @@ function Home() {
           </h1>
 
           <h1 className='text-2xl md:text-4xl font-bold animate-slide whitespace-nowrap' style={{ paddingTop: '0', margin: 'auto 0' }}>
-            I'm a{' '}
+          I&apos;m a{' '}
             <span style={{ color: '#19A7CE', fontWeight: 'bold' }}>
               <Typewriter
-                words={['Frontend Developer', 'UX/UI Designer', 'Web Developer', 'NextJS Developer!']}
+                words={['Frontend Developer!', 'UX/UI Designer!', 'Web Developer!', 'NextJS Developer!']}
                 loop={true}
                 cursor
                 cursorStyle='|'
@@ -45,7 +45,7 @@ function Home() {
           </h1>
 
           <p className='italic animate-slide mt-3 md:mr-28 lg:mr-40'>
-            I am a Medical Student, also I'm a Student Leader at Governor Initiative For Cloud Applied Generative AI, Web 3.0 & Metaverse! Proficient in HTML, CSS, Tailwind CSS, Javascript, Typescript, ReactJS and NextJS.
+            I am a Medical Student, also I&apos;m a Student Leader at Governor Initiative For Cloud Applied Generative AI, Web 3.0 & Metaverse! Proficient in HTML, CSS, Tailwind CSS, Javascript, Typescript, ReactJS and NextJS.
           </p>
         </div>
 
