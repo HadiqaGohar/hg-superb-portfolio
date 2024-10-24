@@ -1,4 +1,4 @@
-'use client';
+'use client'
 import React from 'react';
 import { FaCode, FaMobileAlt, FaSearch, FaServer, FaPaintBrush, FaCloud } from 'react-icons/fa';
 import { motion } from 'framer-motion';
@@ -12,7 +12,7 @@ const services = [
     {
         icon: <FaMobileAlt />,
         title: 'Frontend Development',
-        description: 'Building responsive and high-performance web interfaces.',
+        description: 'Building Responsive and high-performance websites',
     },
     {
         icon: <FaSearch />,
@@ -51,13 +51,12 @@ const Services = () => {
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: index * 0.2 }}
-                        aria-label={service.title} // Accessibility enhancement
                     >
                         <div className="animate-fade-in-top text-cyan-400 text-4xl mb-4">{service.icon}</div>
                         <h3 className="animate-fade-in-top animate-delay-1 text-xl font-bold mb-2">{service.title}</h3>
                         <p className="italic animate-fade-in-top animate-delay-1 mb-4">{service.description}</p>
                         {/* <button
-                            className="bg-[#19A7CE] text-black px-4 py-2 rounded-lg hover:bg-transparent hover:border-[#19A7CE] hover:text-[#19A7CE] hover:border-2 transition-all"
+                           className="animate-fade-in-bottom animate-delay-1  bg-[#19A7CE] text-black fixed-glow px-4 py-2 rounded-lg hover:bg-transparent hover:border-[#19A7CE] hover:text-[#19A7CE]  hover:border-2 transition-all"
                         >
                             Learn More
                         </button> */}
