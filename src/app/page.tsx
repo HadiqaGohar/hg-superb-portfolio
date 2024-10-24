@@ -7,8 +7,8 @@ import { Typewriter } from 'react-simple-typewriter';
 import Image from 'next/image';
 
 function Home() {
-  function handleType(count: number): void {
-    // Handle type events here
+  function handleType(_: number): void {
+    // No operation if you don't need to handle type events
   }
 
   function handleDone(): void {
@@ -21,7 +21,7 @@ function Home() {
       <div className='my-auto md:my-40 md:mx-24 lg:mx-32 text-center md:text-left md:flex-1'>
         <div className='mx-3 my-10'>
           <h2 className='my-4 text-xl md:text-2xl font-bold animate-slide'>
-            Hello, It's Me
+          Hello, It&#39;s Me
           </h2>
           <h1 className='my-2 text-3xl md:text-5xl font-bold animate-slide'>
             Hadiqa Gohar
