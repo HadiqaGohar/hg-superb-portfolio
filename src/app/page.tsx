@@ -21,14 +21,14 @@ function Home() {
       <div className='my-auto md:my-40 md:mx-24 lg:mx-32 text-center md:text-left md:flex-1'>
         <div className='mx-3 my-10'>
         <h2 className='my-4 text-xl md:text-2xl font-bold animate-slide'>
-    Hello, It&apos;s Me
+    Hello, It&#39;s Me
 </h2>
           <h1 className='my-2 text-3xl md:text-5xl font-bold animate-slide'>
             Hadiqa Gohar
           </h1>
 
           <h1 className='text-2xl md:text-4xl font-bold animate-slide whitespace-nowrap' style={{ paddingTop: '0', margin: 'auto 0' }}>
-          I&apos;m a{' '}
+          I&#39;m a{' '}
             <span style={{ color: '#19A7CE', fontWeight: 'bold' }}>
               <Typewriter
                 words={['Frontend Developer!', 'UX/UI Designer!', 'Web Developer!', 'NextJS Developer!']}
@@ -45,7 +45,7 @@ function Home() {
           </h1>
 
           <p className='italic animate-slide mt-3 md:mr-28 lg:mr-40'>
-    I am a Medical Student, also I&apos;m a Student Leader at Governor Initiative For Cloud Applied Generative AI, Web 3.0 & Metaverse!
+    I am a Medical Student, also I&#39;m a Student Leader at Governor Initiative For Cloud Applied Generative AI, Web 3.0 & Metaverse!
 </p>
         </div>
 
