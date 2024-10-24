@@ -7,9 +7,9 @@ import { Typewriter } from 'react-simple-typewriter';
 import Image from 'next/image';
 
 function Home() {
-  function handleType(_: number): void {
-    // No operation if you don't need to handle type events
-  }
+  function handleType(): void {
+    // Logic here if needed in the future
+}
 
   function handleDone(): void {
     // Handle completion of typing here
@@ -20,9 +20,9 @@ function Home() {
       {/* Text */}
       <div className='my-auto md:my-40 md:mx-24 lg:mx-32 text-center md:text-left md:flex-1'>
         <div className='mx-3 my-10'>
-          <h2 className='my-4 text-xl md:text-2xl font-bold animate-slide'>
-          Hello, It&#39;s Me
-          </h2>
+        <h2 className='my-4 text-xl md:text-2xl font-bold animate-slide'>
+    Hello, It&apos;s Me
+</h2>
           <h1 className='my-2 text-3xl md:text-5xl font-bold animate-slide'>
             Hadiqa Gohar
           </h1>
@@ -45,8 +45,8 @@ function Home() {
           </h1>
 
           <p className='italic animate-slide mt-3 md:mr-28 lg:mr-40'>
-            I am a Medical Student, also I&apos;m a Student Leader at Governor Initiative For Cloud Applied Generative AI, Web 3.0 & Metaverse! Proficient in HTML, CSS, Tailwind CSS, Javascript, Typescript, ReactJS and NextJS.
-          </p>
+    I am a Medical Student, also I&apos;m a Student Leader at Governor Initiative For Cloud Applied Generative AI, Web 3.0 & Metaverse!
+</p>
         </div>
 
         {/* Icons */}

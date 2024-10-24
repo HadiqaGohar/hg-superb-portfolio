@@ -26,8 +26,9 @@ function About() {
                     Frontend Developer!
                 </h2>
                 <p className='italic md:text-xl text-4 text-white mx-4 md:mx-32 animate-fade-in-bottom delay-200'>
-                    I am Hadiqa Gohar, a driven and curious senior student at the Governor Initiative, where I&apos;m immersed in the exciting world of Cloud Applied Generative AI, Web 3.0, and Metaverse. With a strong foundation in science and a passion for programming, I&apos;m constantly learning and exploring new possibilities in JavaScript, TypeScript, Python, HTML, CSS, Tailwind CSS, ReactJS, NextJS, and NodeJS. I&apos;m excited to share my journey and projects with you; visit my social media accounts.
-                </p>
+    I am Hadiqa Gohar, a driven and curious senior student at the Governor Initiative, where I&apos;m immersed in the exciting world of Cloud Applied Generative AI, Web 3.0, and Metaverse. With a strong foundation in science and a passion for programming, I&apos;m constantly learning and exploring new possibilities in JavaScript, TypeScript, Python, HTML, CSS, Tailwind CSS, ReactJS, NextJS, and NodeJS. I&apos;m excited to share my journey and projects with you; visit my social media accounts.
+</p>
+
             </div>
         </div>
     );
