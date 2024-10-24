@@ -98,8 +98,8 @@ const Projects = () => {
     };
 
     return (
-        <div className="flex flex-col h-[85vh] items-center justify-center py-10 bg-[#1C315E] text-white">
-            <h1 className="animate-fade-in-top text-5xl mb-10 text-center font-bold">
+        <div className="flex flex-col h-[900px] items-center justify-center py-10 bg-[#1C315E] text-white">
+            <h1 className="animate-fade-in-top text-5xl mb-10 text-center font-bold my-10">
                 Latest <span className="text-cyan-400">Projects</span>
             </h1>
             <Slider {...settings} className="w-full animate-fade-in-bottom max-w-6xl">
@@ -124,7 +124,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
                 height={300}
                 className="w-full h-[300px] object-cover" // Keeps image styling
             />
-            <div className="p-4 flex flex-col h-[95%]"> {/* Use flex to ensure consistent layout */}
+            <div className="p-4 flex flex-col h-[95%] "> {/* Use flex to ensure consistent layout */}
                 <h3 className="text-xl font-bold animate-fade-in-top mb-2">{project.title}</h3>
                 <p className="animate-fade-in-bottom italic mb-4">{project.description}</p>
                 <div className="animate-fade-in-bottom flex-grow" /> {/* This flex-grow div will take remaining space */}
