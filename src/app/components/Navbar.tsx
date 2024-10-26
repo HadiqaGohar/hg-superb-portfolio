@@ -40,7 +40,7 @@ function Navbar() {
                         </li>
                         <li>
                             <Link href="/education" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
-                                Education text-underline-offset: 8px;
+                                Education
                             </Link>
                         </li>
                         <li>
