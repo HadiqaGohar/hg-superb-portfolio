@@ -40,7 +40,7 @@ function Navbar() {
                         </li>
                         <li>
                             <Link href="/education" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
-                                Education
+                                Education text-underline-offset: 8px;
                             </Link>
                         </li>
                         <li>
@@ -48,12 +48,7 @@ function Navbar() {
                                 Skills
                             </Link>
                         </li>
-                       {/* Project */}
-                        {/* <li>
-                            <Link href="/projects" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
-                                Projects
-                            </Link>
-                        </li> */}
+                      
                         <li>
                             <Link href="/services" passHref onClick={handleLinkClick} className='hover:text-[#19A7CE]  hover:underline underline-offset-8'>
                                 Services
