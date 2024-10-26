@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Sample education data (make sure to fill this with your actual data)
+
 const educationData = [
     {
         year: '2021 - 2022',

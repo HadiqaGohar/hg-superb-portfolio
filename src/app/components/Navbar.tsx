@@ -12,8 +12,7 @@ function Navbar() {
     };
 
     const handleLinkClick = () => {
-        // You can add any functionality you want here when a link is clicked
-        // For example, close the mobile menu if it's open
+       
         if (isOpen) {
             toggleMenu();
         }
